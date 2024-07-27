@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 
 const Home = () => {
   const handleExploreClick = () => {
-      window.location.href = "http://localhost:3002/Services"; // Replace with the desired URL
+      window.location.href = "./Services"; // Replace with the desired URL
   };
     return (
         <div className='home-banner'>
